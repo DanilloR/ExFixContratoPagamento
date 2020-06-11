@@ -54,4 +54,8 @@ public class Contract {
 		installments.remove(installment);
 	}
 
+	public List<Installment> getInstallments() {
+		return installments;
+	}
+
 }
